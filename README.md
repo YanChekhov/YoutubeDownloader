@@ -4,8 +4,6 @@
 
 ## RU
 
----
-
 ### Описание
 
 Эта программа — загрузчик видео и аудио с YouTube с графическим интерфейсом. Основные функции:
@@ -18,8 +16,6 @@
 - История загрузок с возможностью её просмотра.
 - Программа автоматически устанавливает необходимые пакеты и настраивает рабочую среду.
 
----
-
 ### Механизм работы
 
 1. Когда вы запускаете программу, она проверяет, установлены ли все необходимые зависимости. Если какие-то из них отсутствуют, программа автоматически попытается их установить через `pip`.
@@ -30,18 +26,14 @@
 6. Если выбрано аудио с разбивкой на части, программа автоматически разрежет файл на отрезки по 25 минут — это удобно для загрузки длинных подкастов или аудио-файлов и их перезаливки в Telegram-каналы.
 7. Программа поддерживает добавление метаданных (название, автор, обложка) к аудиофайлам.
 
----
-
 ### Установка и запуск
 
 1. Скачайте и установите Python 3.x с официального сайта.
-2. Запустить программу YoutubeDownloader.py. Программа автоматически установит все необходимые зависимости и продолжит работу.
+2. Запустите программу `YoutubeDownloader.py`. Программа автоматически установит все необходимые зависимости и продолжит работу.
 
 ---
 
 ## EN
-
----
 
 ### Description
 
@@ -55,8 +47,6 @@ This program is a YouTube video and audio downloader with a graphical interface.
 - Download history with the ability to view it later.
 - The program automatically installs the necessary packages and configures the working environment.
 
----
-
 ### How it works
 
 1. When you run the program, it checks if all the necessary dependencies are installed. If any are missing, the program will automatically attempt to install them via `pip`.
@@ -66,8 +56,6 @@ This program is a YouTube video and audio downloader with a graphical interface.
 5. Depending on your choice (video or audio), the program will download the file to the specified directory, using **YouTube-DLP** for downloading and **FFmpeg** for conversion.
 6. If you select audio with splitting, the program will automatically split the file into 25-minute segments—this is useful for downloading long podcasts or audio files and uploading them to Telegram channels.
 7. The program supports adding metadata (title, author, cover art) to audio files.
-
----
 
 ### Installation and Running
 
