@@ -1,7 +1,6 @@
 # YoutubeDownloader
 
 ---
-
 ## RU
 
 ### Описание
